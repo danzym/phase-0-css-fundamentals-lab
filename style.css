@@ -3,3 +3,33 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+.navigation {
+  text-align: center;
+}
+.navigation a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+.img {
+  display: grid;
+  place-items: center;
+}
+.caption {
+  font-size: medium;
+  text-align: center;
+}
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  padding-left: 20%;
+}
+#details div {
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
